@@ -1,9 +1,9 @@
 ### Site Settings ###
 title               : Piotr Woliński
 description         : >-
-                      Student of Autotamtic Control, and a enthusiast of embedded, hardware developement and everything that flies.
+                      Student of Automatic Control, and a enthusiast of embedded, hardware development and everything that flies.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : Koun7z/Koun7z.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -36,7 +36,7 @@ author:
   linkedin          : piotr-woliński-15630035a
 #  medium            : your_username
 # soundcloud        : your_username
-  spotify           : your_username
+  spotify           : mny9fkoo6uwxguto8borjx24f
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
