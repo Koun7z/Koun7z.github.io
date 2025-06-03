@@ -29,7 +29,7 @@ The natural choice is to of course build it myself, so let's quickly get over th
 
 Before you start criticizing the build, yes I could do some more research and maybe find some parts that fit a little better together. But you also need to take into consideration that my budget wasn't too big, and availability of FPV parts in Poland is also kinda low.
 
-## Let's talk about the parts that do the actual flying first.
+## Let's talk about the parts that do the actual flying first
 ### [Frame](https://www.amazon.pl/dp/B07X9TPC3H?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 Just a random, cheap frame from Amazon. The arms on this one are 6", even tho I'm using 5" props, but I don't care that much about weight and some extra space definitely won't hurt.
 
