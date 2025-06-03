@@ -1,0 +1,4 @@
+.center-table {
+  display: inline-table !important;
+  border-collapse: collapse !important;
+}
