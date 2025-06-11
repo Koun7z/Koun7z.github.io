@@ -667,7 +667,7 @@ This piece of code, taken directly from HAL source tells us exactly what happene
 #define HAL_UART_ERROR_ORE               0x00000008U   /*!< Overrun error       */
 #define HAL_UART_ERROR_DMA               0x00000010U   /*!< DMA transfer error  */
 ```
-It indicates that the UART peripheral struggles to sync up to the transmission, as the reception started not before but somewhere in the middle of a UART frame. I didn't append time to those errors (my bad), by I am 100% sure that all of them happened inthe duration of a single CRSF frame. After this unfortunately timed frame ended, the UART got some time to initialize and read the next frame on time, so the reception got back to normal. Over all, this error is a good demonstration of how this library maintains stable connection despite those errors.
+It indicates that the UART peripheral struggles to sync up to the transmission, as the reception started not before but somewhere in the middle of a UART frame. I didn't append time to those errors (my bad), but I am 100% sure that all of them happened in the duration of a single CRSF frame. After this unfortunately timed frame ended, the UART got some time to initialize and read the next frame on time, so the reception got back to normal. Over all, this error is a good demonstration of how this library maintains stable connection despite those errors.
 
 > It may be easy to mistake the two so to avoid unnecessary confusion:\
 **UART frame** is a single byte of data (most of the time) with a start and stop bit appended, to make syncing up the transmitter and receiver together.\
