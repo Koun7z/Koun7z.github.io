@@ -12,6 +12,11 @@ open_new_tab        : false                    # Opens external URLs in new tab 
 plugins:
   - jemoji
 
+### Markdown ###
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
